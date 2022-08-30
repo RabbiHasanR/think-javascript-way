@@ -111,6 +111,9 @@ for(let i = 0; i < 3; i++) {
     setTimeout(myFunc, 3000);
 }
 
+// following code output is 3 3 3
+// because i declare with var variable. var is function scope variable.every time looping i change value.
+// so closure reference three i
 
 for(var x = 0; x < 3; x++) {
     const myFunc = function () {
