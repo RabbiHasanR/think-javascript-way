@@ -83,6 +83,10 @@ function myFunc() {
     console.log('I love javascript!')
 }
 
+
+
+
+
 myFuncTwo() // output: javascript
 
 function myFuncTwo() {
@@ -91,7 +95,17 @@ function myFuncTwo() {
     console.log(language)
 }
 
+
+
+
+
+
+
 // but when function declare in variable ..function hoisting work like variable hoisting
+
+
+
+
 
 //example
 // myFuncThree() // output: myFuncThree is not a function
