@@ -176,4 +176,3 @@ let persons = new Array()
 persons.push('Rabbi')
 console.log(persons)
 console.log(Array.prototype)
-
